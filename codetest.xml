@@ -17,7 +17,7 @@
             <field name="OBJECT">GREEN</field>
             <next>
               <block type="oled_drawtext" id="6">
-                <field name="TEXT">hello</field>
+                <field name="TEXT">potato's are awsome</field>
               </block>
             </next>
           </block>
