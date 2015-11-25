@@ -12,38 +12,38 @@
             <next>
               <block type="robot_delay" id="5" inline="true">
                 <value name="DELAY">
-                  <block type="math_number" id="18">
+                  <block type="math_number" id="6">
                     <field name="NUM">1500</field>
                   </block>
                 </value>
                 <next>
-                  <block type="movement_forward" id="19">
+                  <block type="movement_forward" id="7">
                     <next>
-                      <block type="robot_delay" id="20" inline="true">
+                      <block type="robot_delay" id="8" inline="true">
                         <value name="DELAY">
-                          <block type="math_number" id="21">
+                          <block type="math_number" id="9">
                             <field name="NUM">4000</field>
                           </block>
                         </value>
                         <next>
-                          <block type="oled_cleardisplay" id="6">
+                          <block type="oled_cleardisplay" id="10">
                             <next>
-                              <block type="oled_setcursor" id="7" inline="true">
+                              <block type="oled_setcursor" id="11" inline="true">
                                 <value name="STARTX">
-                                  <block type="math_number" id="8">
+                                  <block type="math_number" id="12">
                                     <field name="NUM">5</field>
                                   </block>
                                 </value>
                                 <value name="STARTY">
-                                  <block type="math_number" id="9">
+                                  <block type="math_number" id="13">
                                     <field name="NUM">30</field>
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="oled_color" id="10">
+                                  <block type="oled_color" id="14">
                                     <field name="OBJECT">GREEN</field>
                                     <next>
-                                      <block type="oled_drawtext" id="11">
+                                      <block type="oled_drawtext" id="15">
                                         <field name="TEXT">potato's are awesome</field>
                                       </block>
                                     </next>
