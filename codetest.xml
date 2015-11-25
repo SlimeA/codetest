@@ -1,20 +1,10 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_if" id="1" inline="false" x="180" y="-57">
-    <value name="IF0">
-      <block type="sensor_object" id="2">
-        <field name="OBJECT">RIGHTFRONT</field>
-      </block>
-    </value>
+  <block type="controls_if" id="1" inline="false" x="1250" y="772">
     <statement name="DO0">
       <block type="movement_left" id="3"></block>
     </statement>
     <next>
       <block type="controls_if" id="4" inline="false">
-        <value name="IF0">
-          <block type="sensor_object" id="5">
-            <field name="OBJECT">LEFTFRONT</field>
-          </block>
-        </value>
         <statement name="DO0">
           <block type="movement_right" id="6"></block>
         </statement>
